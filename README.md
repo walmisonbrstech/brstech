@@ -1,2 +1,1 @@
-# brstech
-Sistema Brstech
+Sistema para Gestção de instituições financeiras (Cooperativas de crédito, fintechs e agências de fomentos). O sistema possui funcionalidade para controle de capital integralizado, cadastro de contas, empréstimo/CCB, aplicação/CDB, contábil e controle regulatórios. 
