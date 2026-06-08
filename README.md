@@ -1,8 +1,8 @@
-1. Módulo de Crédito & Captação
-CCB (Cédula de Crédito Bancário): Calcula as parcelas usando a Tabela Price ou SAC. Permite antecipção das última parcelas. Controle de atraso. Controle de seguro prestamista e seguro de crédito. Cálculo de IOF e CET mensal e anual. Permite parametrizar carteira de crédito de acordo com a necessidade do cliente. 
+CCB (Cédula de Crédito Bancário): O sistema opera com os tipos de financiamento Price e SAC, permitindo antecipação da próxima parcela a vencer ou da última parcela, com o devido desconto proporcional de juros, controle de inadimplência/atraso e gestão de seguros associados (seguro prestamista e seguro de crédito), cálculo da CET (Custo Efetivo Total) mensal e anual. A carteira de crédito é totalmente parametrizável de acordo com as necessidades operacionais da instituição.
 
-CDB (Certificado de Depósito Bancário): O sistema calcula a rentabilidade a partir de taxas pré fixada ou pós fixado utilizando indicadores (DI, SELIC, TR e IPCA). Os indexadores são carregados automaticamente todos dias de acordo com a dispinobilização do BACEN. O sistema permite criar fatores de taxas e percentual de remuneração de acordo com o valor aplicado e prazo para resgate. Em caso de resgate parcial, o sistema atualiza o fator de taxa e percentual de acordo com o parametrizado no plano de aplicação. 
-Além da contabilização necessária para controle da instituição o sistema já calculo e contabiliza a TJEO diariamente com o rendimento, de acordo com o regulatório do BACEN.
+CDB (Certificado de Depósito Bancário): O sistema calcula a rentabilidade de ativos pré-fixados ou pós-fixados indexados a indicadores de mercado (DI, SELIC, TR e IPCA). Os indexadores são atualizados automaticamente todos os dias via integração com as APIs do Banco Central. Permite a parametrização de curvas de taxas e percentuais de remuneração escalonados por volume aplicado e prazo de carência/resgate. Em cenários de resgate parcial, o sistema atualiza dinamicamente o fator da taxa e o percentual com base nas regras do plano de aplicação.
+
+Contabilização e Regulatórios: Além da geração automática de lançamentos contábeis operacionais, o sistema calcula e provisiona diariamente a TJEO (Taxa de Juros Efetiva da Operação) sobre o rendimento acumulado, garantindo conformidade com os normativos de contabilidade regulatória do Banco Central.
 
 3. Capital & Contábil
 Contas e Capital: Explique o controle de saldos, fluxo de caixa e a parte de cotas-partes (capital integralizado).
